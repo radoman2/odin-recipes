@@ -1,2 +1,2 @@
 # odin-recipes
-Practice of HTML and git skills learned through The Odin Project course.
+Practice of HTML, CSS and git skills learned through The Odin Project course.
