@@ -10,3 +10,29 @@ h1 {
 a {
     font-size: 24px;
 }
+
+.buttons {
+    background-color: white;
+    font-size: 14px;
+    border: 2px solid white;
+}
+
+/*
+#home-button {
+    background-color: white;
+    font-size: 14px;
+    border: 2px solid white;
+}
+
+#previous-button {
+    background-color: white;
+    font-size: 14px;
+    border: 2px solid white;
+}
+
+#next-button {
+    background-color: white;
+    font-size: 14px;
+    border: 2px solid white;
+}
+*/
