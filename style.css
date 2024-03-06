@@ -1,10 +1,25 @@
 body {
     font-family: Verdana, Arial, sans-serif;
     line-height: 24px;
+    background-color: lightcyan;
 }
 
-h1 {
+h1, h2 {
     font-size: 36px;
+    background-color: lightcyan;
+    margin: 8px;
+    border: 8px solid white;
+    padding: 8px;
+    color: black;
+}
+
+.content {
+    background-color: white;
+    font-size: 14px;
+    border: 8px solid white;
+    padding: 8px;
+    margin: 8px;
+    background-color: lightcyan;
 }
 
 a {
@@ -17,22 +32,43 @@ a {
     border: 2px solid white;
 }
 
-/*
-#home-button {
-    background-color: white;
-    font-size: 14px;
-    border: 2px solid white;
+.index {
+    background-color: lightsalmon;
+    border: 8px solid white;
+    margin: 8px;
+    padding: 8px;
 }
 
-#previous-button {
-    background-color: white;
-    font-size: 14px;
-    border: 2px solid white;
+.main {
+    border: 8px solid white;
+    background-color: lightcyan;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    
 }
 
-#next-button {
-    background-color: white;
-    font-size: 14px;
-    border: 2px solid white;
+.child {
+    border: 8px solid white;
+    background-color: lightcyan;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    
 }
-*/
+
+.image {
+    background-color: white;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.main:hover{
+    background-color: lightskyblue;
+}
+
+.child:hover{
+    background-color: lightskyblue;
+}
