@@ -1,3 +1,8 @@
+* {
+   /* outline: 2px solid red; */
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Arial, sans-serif;
     line-height: 24px;
@@ -26,11 +31,11 @@ a {
     font-size: 24px;
 }
 
-.buttons {
+/*.buttons {
     background-color: white;
     font-size: 14px;
     border: 2px solid white;
-}
+}*/
 
 .index {
     background-color: lightgray;
@@ -39,13 +44,27 @@ a {
     padding: 8px;
 }
 
-.main {
-    border: 8px solid white;
+.buttons-main {
+    /*border: 8px solid black; */
     background-color: lightcyan;
     display: block;
     margin: 10px;
     padding: 10px;
+    position: relative;
     
+}
+
+.container {
+    position: relative;
+    max-width: 200px;
+}
+
+
+.shadow {
+    background-color: black;
+    position: absolute;
+    bottom: -5px;
+    right: -30px;
 }
 
 .child {
@@ -72,3 +91,4 @@ a {
 .child:hover{
     background-color: lightskyblue;
 }
+
