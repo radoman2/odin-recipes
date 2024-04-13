@@ -1,5 +1,4 @@
 * {
-   /* outline: 2px solid red; */
     box-sizing: border-box;
 }
 
@@ -11,20 +10,17 @@ body {
 
 h1, h2 {
     font-size: 36px;
-    background-color: lightcyan;
     margin: 8px;
-    border: 8px solid white;
     padding: 8px;
     color: black;
 }
 
 .content {
-    background-color: white;
+    background-color: lightsalmon;
     font-size: 14px;
     border: 8px solid white;
     padding: 8px;
     margin: 8px;
-    background-color: lightcyan;
 }
 
 a {
@@ -62,8 +58,6 @@ a {
     z-index: 0;
 }
 
-
-
 .buttons-child {
     display: inline-block;
     background-color: lightcyan;
@@ -72,7 +66,6 @@ a {
     padding: 10px;
     position: relative;
     z-index: 1;
-    
 }
 
 .buttons-child-shadow {
@@ -95,7 +88,6 @@ a {
     padding: 10px;
 }
 
-
 .buttons-main:hover{
     background-color: lightskyblue;
 }
@@ -104,8 +96,6 @@ a {
     background-color: lightskyblue;
 }
 
-
-
 .items-main {
     position: relative;
 }
@@ -113,7 +103,6 @@ a {
 .items-child {
     position: relative;
 }
-
 
 .container-buttons-child{
     display: flex;
